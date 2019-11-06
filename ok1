@@ -1,0 +1,20 @@
+int[] time = {100,70,50,30};
+int[] newarray = new int[999];
+
+int sq(int x){
+	pushMatrix;
+	rect(0,0,x,x);
+	translate(0,20);
+	for(int i=0;i<1;i++){
+		rect(0,0,x,x);
+		translate(0,20);
+		}
+	}
+
+void setup() {
+	size(500,500);
+	noFill();
+	for(int i=0;i<4;i++){
+		print(time[i]);
+		sq(time[i]);
+	}
